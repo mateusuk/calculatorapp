@@ -90,7 +90,7 @@ body{
 
 }
 
-.calc-button-last-child:hover{
+.calc-button:last-child:hover{
     background-color: inherit;
     color: inherit;
 }

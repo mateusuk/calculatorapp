@@ -26,21 +26,21 @@ function handleSymbol(symbol){
             }
             flushOperation(parseInt(buffer));
             previousOperator = null;
-            buffer= runningTotal;
-            runningTotal=0;
+            buffer = runningTotal;
+            runningTotal = 0;
             break;
         case '←':
-            if(buffer.length ===1){
+            if(buffer.length === 1){
                 buffer = '0';
 
             }else{
                 buffer = buffer.toString(0, buffer.length - 1);
             }
             break;
-        case'+' :
-        case'-':
-        case 'x':
-        case '÷':
+        case'+':
+        case'−':
+        case'×':
+        case'÷':
             handleMath(symbol);
             break;
 
@@ -66,10 +66,10 @@ function handleMath(symbol){
 function flushOperation(intBuffer){
     if(previousOperator === '+'){
         runningTotal += intBuffer;
-    }else if(previousOperator === '-'){
-        runningTotal = runningTotal - intBuffer;
-    }else if(previousOperator === 'x'){
-        runningTotal = runningTotal * intBuffer
+    }else if(previousOperator === '−'){
+        runningTotal -= intBuffer;
+    }else if(previousOperator === '×'){
+        runningTotal *= intBuffer
     }else if(previousOperator ==='÷'){
         runningTotal /= intBuffer;
     }
