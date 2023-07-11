@@ -14,7 +14,7 @@
   ## Description
   
   A calculator was developed using html, css and javascript, testing skills developed during the BootCamp!
-  ![html](https://img.shields.io/badge/html)
+  ![HTML](https://img.shields.io/badge/html-blue)
   https://img.shields.io/badge/HTML
   https://img.shields.io/badge/any_text-you_like-blue
   https://img.shields.io/badge/any_text-you_like-blue
