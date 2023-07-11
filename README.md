@@ -13,7 +13,10 @@
 
   ## Description
   
-  A calculator was developed using html, css and javascript, testing skills developed during the bootcamp
+  A calculator was developed using html, css and javascript, testing skills developed during the BootCamp!
+  https://img.shields.io/badge/HTML
+  https://img.shields.io/badge/any_text-you_like-blue
+  https://img.shields.io/badge/any_text-you_like-blue
 
   ## Installation
 
