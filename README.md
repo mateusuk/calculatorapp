@@ -23,7 +23,7 @@
 
   ## Usage
 
-  Browser
+  <img src="calculator.png" alt="Image" width="50%">
 
   ## License
 
