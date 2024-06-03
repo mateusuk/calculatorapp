@@ -17,9 +17,6 @@
   ![HTML](https://img.shields.io/badge/HTML-red)
   ![HTML](https://img.shields.io/badge/JAVASCRIPT-yellow)
   ![HTML](https://img.shields.io/badge/CSS-blue)
-  ## Installation
-
-  N/A
 
   ## Usage
 
